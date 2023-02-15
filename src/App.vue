@@ -1,5 +1,6 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from "./components/HelloWorld.vue";
+// import Prueba from "./components/Prueba.vue";
 </script>
 
 <template>
@@ -7,14 +8,12 @@ import HelloWorld from './components/HelloWorld.vue'
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
   </div>
   <HelloWorld msg="Vite + Vue" />
+  <!-- <Prueba /> -->
 </template>
 
-<style scoped>
+<style lang="scss">
 .logo {
   height: 6em;
   padding: 1.5em;
