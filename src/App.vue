@@ -5,8 +5,11 @@
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>
-    <router-link to="/">HOME</router-link>
-    <router-link to="about">ABOUT</router-link>
+    <br />
+    <router-link to="/">HOME</router-link> |
+    <router-link to="about">ABOUT</router-link> |
+    <router-link to="login">LOGIN</router-link> |
+    <router-link to="register">REGISTER</router-link>
     <router-view> </router-view>
   </div>
 </template>
